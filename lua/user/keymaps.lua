@@ -51,6 +51,8 @@ keymap("v", ">", ">gv", opts)
 -- Move text up and down
 keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k>", ":m .-2<CR>==", opts)
+
+-- Keep yanked word when pasting over other word
 keymap("v", "p", '"_dP', opts)
 
 -- Visual Block --
