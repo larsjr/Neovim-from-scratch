@@ -89,6 +89,12 @@ return packer.startup(function(use)
 		commit = "518e27589c0463af15463c9d675c65e464efc2fe",
 	})
 
+	-- Nvim-ts-autotag
+	use({
+		"windwp/nvim-ts-autotag",
+		commit = "fdefe46c6807441460f11f11a167a2baf8e4534b",
+	})
+
 	-- Git
 	use({ "lewis6991/gitsigns.nvim", commit = "c18e016864c92ecf9775abea1baaa161c28082c3" })
 
